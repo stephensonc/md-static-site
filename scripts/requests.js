@@ -10,7 +10,8 @@ class RequestType {
     }
 }
 
-axios.defaults.baseURL="https://mangadex-personal-frontend.herokuapp.com/https://api.mangadex.org";
+axios.defaults.baseURL="https://api.mangadex.org"
+// axios.defaults.baseURL="https://mangadex-personal-frontend.herokuapp.com/https://api.mangadex.org";
 // axios.defaults.headers.common["X-Requested-With"] = 'https://mangadex-personal-frontend.herokuapp.com/';
 
 
