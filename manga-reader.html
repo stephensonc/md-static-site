@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="style/style.css" rel="stylesheet">
+    <title>Read Manga</title>
+  <head>
+
+  <body>
+
+    <main>
+      <nav id="sidebar">
+        <h2>Chapters</h2>
+        <div id="chapter-list">
+          
+        </div>
+      </nav>
+
+
+      <div id="main-content">
+        <div id="content-pane">
+
+          <!-- Will be populated with chapter images once the user clicks a chapter -->
+          <div id="chapter-pane" class="content-window">
+            <h2 id="chapter-num"></h2>
+            <div id="chapter-images" class="image-list"></div>
+            <div id="navigation-buttons">
+              <button id="back-button">Prev</button>
+              <button id="next-button">Next</button>
+            </div>
+          </div>
+        </div>
+
+        <div id="content-attribution-pane">
+          <p class="attribution">Content brought to you from <a href='https://mangadex.org'>Mangadex.org</a></p>
+          <p id="scanlation-attribution" class="attribution"></p>
+        </div>
+      </div>
+      
+    </main>
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="scripts/requests.js" type="text/javascript"></script>
+    <script src="scripts/responses.js" type="text/javascript"></script>
+    <script src="scripts/manga.js" type="text/javascript"></script>
+    <script src="scripts/manga-reader.js" type="text/javascript"></script>
+    
+  </body>
+</html>

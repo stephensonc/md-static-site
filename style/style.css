@@ -1,0 +1,126 @@
+html {
+    background-color: #333333;
+}
+
+body {
+    display: grid;
+    height: 90%;
+}
+
+main {
+    display: grid;
+    grid-template-columns: max-content auto;
+}
+
+nav {
+    background-color: dimgray;
+    max-width: 20vw;
+    min-width: 10vw;
+    height: 90vh;
+}
+nav h2 {
+    color: whitesmoke;
+    border-style: inset;
+    border-top: none;
+    border-left: none;
+    border-right:none;
+    border-color: #333333;
+}
+
+a {
+    color:orangered;
+}
+
+#chapter-list {
+    background-color: dimgray;
+    display: block;
+    overflow-y: scroll;
+    max-height: 100%;
+}
+#chapter-list .chapter-title {
+    display: block;
+}
+
+#content-pane {
+    margin-left: 5%;
+    margin-right: 5%;
+    display: grid;
+    grid-template-rows: min-content auto;
+    height: 100%;
+}
+#content-attribution-pane {
+    display: block;
+    text-align: right;  
+}
+#content-attribution-pane .attribution {
+    display: block;
+    color:dimgray
+}
+
+#search-form {
+    display: grid;
+    grid-template-columns: 80% auto;
+}
+
+#login-pane {
+    position: fixed;
+    margin: 20%;
+    background-color: dimgray;
+}
+
+#login-form {
+    display: grid;
+    grid-template-columns: 80% auto;
+}
+
+#login-inputs {
+    display: grid;
+    grid-template-rows: auto auto;
+}
+
+.manga-list{
+    display: block;
+    overflow-y: scroll;
+    max-height: 100%;
+}
+
+.image-list {
+    display: block;
+    overflow-y: scroll;
+    max-height: 100%;
+    object-fit: fill;
+}
+img {
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+    width:auto;
+    height:auto;
+}
+
+
+#navigation-buttons{
+    text-align: right;
+}
+
+.manga-preview{
+    display: block;
+    background-color: dimgray;
+    border-radius: 20px;
+}
+.manga-preview p{
+    color: whitesmoke;
+    text-align: center;
+    padding: 2%;
+}
+.chapter-preview p {
+    color: whitesmoke;
+    padding: 1%;
+}
+
+.content-window {
+    max-height: 80vh;
+}
+.content-window h2 {
+    color: whitesmoke;
+}
